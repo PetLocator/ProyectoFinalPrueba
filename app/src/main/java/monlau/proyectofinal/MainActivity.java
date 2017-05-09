@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.inicio);
         logo = (ImageView) findViewById(R.id.imageView);
         aparecerLogo();
-        //
+        //lo recibes?
 
     }
     private void aparecerLogo() {
