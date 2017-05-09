@@ -17,8 +17,16 @@ public class MainActivity extends AppCompatActivity {
         aparecerLogo();
         //lo recibes?
 
+
     }
     private void aparecerLogo() {
+        Animation alpha, alpha2;
+        alpha = AnimationUtils.loadAnimation(this, R.anim.logo);
+        logo.startAnimation(alpha);
+        //cambiarPantalla();
+
+    }
+    private void aparecerLoge212121o() {
         Animation alpha, alpha2;
         alpha = AnimationUtils.loadAnimation(this, R.anim.logo);
         logo.startAnimation(alpha);
